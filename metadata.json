@@ -1,0 +1,5 @@
+{
+  "name": "SalesAI - 智能客戶分析",
+  "description": "SalesAI 客戶分析工具。輸入客戶資料，利用 Gemini Pro 生成深度銷售策略與洞察報告。",
+  "requestFramePermissions": []
+}
