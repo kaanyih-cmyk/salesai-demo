@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { GoogleGenAI, Type } from "@google/genai";
 
-const modelId = "models/gemini-1.5-pro";
+const modelId = "models/gemini-1.5-flash";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   // CORS（讓前端可以呼叫）
@@ -69,5 +69,6 @@ ${data.rawData}
     return res.status(500).json({ error: e?.message || "Unknown error" });
   }
 }
+
 
 
